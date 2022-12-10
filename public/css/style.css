@@ -12,3 +12,25 @@ body {
   background: #222;
   overflow: hidden;
 }
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container .cube {
+  width: 30px;
+  height: 30px;
+  margin: 2px;
+  box-shadow: 0 0 2px #000;
+  background: #333;
+  transition: all 2s ease;
+}
+
+.container .cube:hover {
+  transition-duration: 0s;
+}
